@@ -1,7 +1,13 @@
 void main() {
+  var marks = new Map();
+  marks ['Shatho']=70;
+  marks ['kgosi']=70;
+  marks['Eli']=80;
+  marks['bella']=85;
   
- /* for (int i = 0; i < 5; i++) {
-    print('hello ${i + 1}');
-  }*/
-  print("Shatho");
+  print("Class marks: $marks");
+  print("Shatho's marks:");
+  
+  print(marks['Shatho']);
+  
 }
